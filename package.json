@@ -5,11 +5,15 @@
 	"scripts": {
 		"deploy": "wrangler deploy",
 		"dev": "wrangler dev",
+		"format": "prettier --write .",
 		"start": "wrangler dev",
 		"test": "vitest"
 	},
 	"devDependencies": {
 		"@cloudflare/vitest-pool-workers": "^0.12.4",
+		"prettier": "^3.8.1",
+		"prettier-plugin-organize-imports": "^4.3.0",
+		"prettier-plugin-packagejson": "^3.0.0",
 		"vitest": "~3.2.0",
 		"wrangler": "^4.65.0"
 	}

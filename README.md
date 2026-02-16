@@ -14,12 +14,12 @@ The color depends on whether the current time (Asia/Taipei) is within a given ti
 
 ### Query Parameters
 
-| Param | Description |
-|--------|------------|
-| s | Start time (HH:MM, 24-hour) |
-| e | End time (HH:MM, 24-hour) |
-| d | Default color (6-digit hex, no #) |
-| c | Current color (6-digit hex, no #) |
+| Param | Description                       |
+| ----- | --------------------------------- |
+| s     | Start time (HH:MM, 24-hour)       |
+| e     | End time (HH:MM, 24-hour)         |
+| d     | Default color (6-digit hex, no #) |
+| c     | Current color (6-digit hex, no #) |
 
 ### Behavior
 
@@ -34,7 +34,7 @@ The color depends on whether the current time (Asia/Taipei) is within a given ti
 
 /?s=23:00&e=01:00&d=111111&c=00FF99
 
-````
+```
 
 ## Development
 
@@ -42,7 +42,7 @@ Install dependencies:
 
 ```bash
 pnpm install
-````
+```
 
 Run tests:
 
@@ -58,5 +58,5 @@ wrangler deploy
 
 ## Notes
 
-* Response: `image/png`
-* Cache-Control: `no-store` by default
+- Response: `image/png`
+- Cache-Control: `no-store` by default
